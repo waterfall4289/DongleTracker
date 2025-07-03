@@ -1,4 +1,4 @@
-# HALCON Dongle Tracker
+# Dongle Tracker
 
 A web-based application for managing and tracking HALCON hardware dongles. Built with Streamlit and SQLite, this tool provides a complete dongle management system with check-in/check-out functionality, edit tracking, and assignment history.
 
@@ -83,19 +83,6 @@ A web-based application for managing and tracking HALCON hardware dongles. Built
 
 ## Architecture
 
-The application has been refactored following clean code principles:
-
-```
-├── halcon_dongle_tracker.py  # Main entry point
-├── app.py                    # Application logic and routing
-├── database.py              # Database operations and models
-├── ui_components.py         # Reusable UI components
-├── views.py                 # View functions for each page
-├── requirements.txt         # Python dependencies
-├── dongles.db              # SQLite database (auto-created)
-└── README.md               # This file
-```
-
 ### Key Components
 
 - **Database Layer**: SQLite with WAL mode for better concurrency
@@ -147,8 +134,4 @@ For development information and technical details, see `CLAUDE.md`.
 
 ## License
 
-[Add your license information here]
-
 ## Support
-
-For issues or feature requests, please [add your contact/issue reporting information here].
